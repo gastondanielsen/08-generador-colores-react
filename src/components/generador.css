@@ -1,0 +1,38 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 320px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.btn button {
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.btn button:hover {
+    background-color: #1e90ff;
+}
